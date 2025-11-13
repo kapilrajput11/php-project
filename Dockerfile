@@ -1,5 +1,5 @@
 # Use official PHP with Apache
-FROM php:8.1-apache
+FROM public.ecr.aws/docker/library/php:8.1-apache
 
 # Install PDO MySQL extension
 RUN docker-php-ext-install pdo pdo_mysql
